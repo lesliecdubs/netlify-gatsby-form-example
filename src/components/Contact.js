@@ -6,9 +6,8 @@ const Contact = (props) => (
   <section id="contact">
     <div className="inner">
       <section>
-      <form method="post" action="#">
-      {/* <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field"> */}
-        {/* <input type="hidden" name="form-name" value="contact" /> */}
+      <form method="post" action="#" data-netlify="true" name="contact" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
           <div className="field half first">
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="name" />
